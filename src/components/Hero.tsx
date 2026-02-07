@@ -32,7 +32,7 @@ export function Hero() {
     <section className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-24 pb-16">
       {/* Subtle gradient glow */}
       <div className="pointer-events-none absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <div className="h-[500px] w-[500px] rounded-full bg-accent-primary/5 blur-[120px]" />
+        <div className="h-[250px] w-[250px] sm:h-[350px] sm:w-[350px] md:h-[500px] md:w-[500px] rounded-full bg-accent-primary/5 blur-2xl sm:blur-[80px] md:blur-[120px]" />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-2xl space-y-10 text-center">
@@ -73,7 +73,7 @@ export function Hero() {
 
         {/* Email signup */}
         <div id="signup" className="animate-fade-up delay-300">
-          <div className="mx-auto max-w-md rounded-2xl border border-surface-border bg-surface/60 p-6 backdrop-blur-sm animate-pulse-glow">
+          <div className="mx-auto max-w-md rounded-2xl border border-surface-border bg-surface/60 p-6 animate-pulse-glow">
             <p className="mb-4 text-sm font-medium text-text-primary">
               Get notified when we launch
             </p>

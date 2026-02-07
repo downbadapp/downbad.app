@@ -5,14 +5,21 @@ export function Pricing() {
   const ref = useRef<HTMLElement>(null);
 
   useEffect(() => {
+    const fallback = setTimeout(() => setIsVisible(true), 800);
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) setIsVisible(true);
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          clearTimeout(fallback);
+        }
       },
-      { threshold: 0.1 },
+      { threshold: 0, rootMargin: '50px' },
     );
     if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
+    return () => {
+      clearTimeout(fallback);
+      observer.disconnect();
+    };
   }, []);
 
   return (
@@ -32,7 +39,7 @@ export function Pricing() {
         <div className="grid gap-5 sm:grid-cols-3">
           {/* Free */}
           <div
-            className="rounded-2xl border border-surface-border bg-surface/40 p-6 text-center backdrop-blur-sm transition-all duration-700"
+            className="rounded-2xl border border-surface-border bg-surface/40 p-6 text-center transition-[opacity,transform] duration-700"
             style={{
               opacity: isVisible ? 1 : 0,
               transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
@@ -49,7 +56,7 @@ export function Pricing() {
 
           {/* Pro — highlighted */}
           <div
-            className="rounded-2xl border border-accent-primary/40 bg-accent-primary/5 p-6 text-center ring-1 ring-accent-primary/20 transition-all duration-700"
+            className="rounded-2xl border border-accent-primary/40 bg-accent-primary/5 p-6 text-center ring-1 ring-accent-primary/20 transition-[opacity,transform] duration-700"
             style={{
               opacity: isVisible ? 1 : 0,
               transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
@@ -66,7 +73,7 @@ export function Pricing() {
 
           {/* Lifetime */}
           <div
-            className="rounded-2xl border border-surface-border bg-surface/40 p-6 text-center backdrop-blur-sm transition-all duration-700"
+            className="rounded-2xl border border-surface-border bg-surface/40 p-6 text-center transition-[opacity,transform] duration-700"
             style={{
               opacity: isVisible ? 1 : 0,
               transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
