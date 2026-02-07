@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>DownBad — Infrastructure Monitoring Made Simple</title>
+    <meta name="description" content="Monitor SSL certificates, DNS, email security, and uptime. Get alerts before problems become outages. Built for indie hackers and small teams. $50/year." />
+    <meta name="author" content="DownBad" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/logo.svg" sizes="any" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DownBad" />
+    <meta property="og:title" content="DownBad — Infrastructure Monitoring Made Simple" />
+    <meta property="og:description" content="Monitor SSL certificates, DNS, email security, and uptime. Get alerts before problems become outages." />
+    <meta property="og:url" content="https://downbad.app" />
+    <meta property="og:image" content="https://downbad.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="DownBad — Infrastructure Monitoring Made Simple" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / Bluesky -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DownBad — Infrastructure Monitoring Made Simple" />
+    <meta name="twitter:description" content="Monitor SSL certificates, DNS, email security, and uptime. Get alerts before problems become outages." />
+    <meta name="twitter:image" content="https://downbad.app/og-image.png" />
+    <meta name="twitter:image:alt" content="DownBad — Infrastructure Monitoring Made Simple" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://downbad.app" />
+
+    <!-- Theme & PWA -->
+    <meta name="theme-color" content="#09090b" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="DownBad" />
+    <meta name="application-name" content="DownBad" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- Performance resource hints -->
+    <link rel="dns-prefetch" href="https://buttondown.com" />
+    <link rel="preconnect" href="https://buttondown.com" crossorigin />
+
+    <!-- JSON-LD: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DownBad",
+      "url": "https://downbad.app",
+      "logo": "https://downbad.app/logo.svg",
+      "description": "Infrastructure monitoring made simple for indie hackers and small teams.",
+      "sameAs": [
+        "https://bsky.app/profile/downbad.app",
+        "https://github.com/downbadapp",
+        "https://mastodon.social/@downbad"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "support@downbad.app",
+        "contactType": "customer support"
+      }
+    }
+    </script>
+
+    <!-- JSON-LD: WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "DownBad",
+      "url": "https://downbad.app",
+      "description": "Monitor SSL certificates, DNS, email security, and uptime. Built for indie hackers and small teams."
+    }
+    </script>
+
+    <!-- JSON-LD: SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "DownBad",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Web",
+      "url": "https://downbad.app",
+      "description": "Monitor SSL certificates, DNS, email security, and uptime. Get alerts before problems become outages.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free tier — 1 domain bundle"
+        },
+        {
+          "@type": "Offer",
+          "price": "50",
+          "priceCurrency": "USD",
+          "description": "Pro — 100 monitors, $50/year"
+        }
+      ]
+    }
+    </script>
+
+    <!-- JSON-LD: FAQPage (AEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does DownBad monitor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DownBad monitors SSL/TLS certificates, DNS records, email security (SPF, DKIM, DMARC), domain blacklist status, HTTP endpoint uptime, and domain registration (WHOIS) expiration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does DownBad cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DownBad offers a free tier with 1 domain bundle. The Pro plan costs $50/year and includes 100 monitors, multi-region checks, and public status pages. A Lifetime Founder plan is available for a one-time payment of $299."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes DownBad different from other monitoring tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DownBad is built specifically for indie hackers and small teams. It uses domain bundles — enter one domain and it auto-configures SSL, DNS, WHOIS, email security, blacklist, and HTTP monitors. No per-monitor fees, no enterprise pricing, and no third-party trackers."
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

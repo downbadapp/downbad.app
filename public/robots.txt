@@ -1,0 +1,33 @@
+# robots.txt for downbad.app
+
+User-agent: *
+Allow: /
+
+Sitemap: https://downbad.app/sitemap.xml
+
+# AI/LLM bot directives
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Reference: https://downbad.app/llms.txt

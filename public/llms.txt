@@ -1,0 +1,48 @@
+# DownBad — Infrastructure Monitoring Made Simple
+# https://downbad.app
+# Contact: support@downbad.app
+
+## About DownBad
+
+DownBad is an infrastructure monitoring platform designed for indie hackers, solo founders, and small teams. We provide simple, approachable monitoring for:
+
+- SSL/TLS certificate expiration
+- DNS record verification
+- Email security (SPF, DKIM, DMARC)
+- Blacklist monitoring
+- HTTP endpoint uptime
+- Domain registration expiration
+
+## Key Features
+
+- **Domain Bundles**: Enter one domain — we auto-configure SSL, DNS, WHOIS, email security, blacklist, and HTTP monitors
+- **Multi-Region Verification**: Checks from 6+ US regions to reduce false positives
+- **Plain-English Alerts**: Notifications that explain what broke and how to fix it
+- **Public Status Pages**: Auto-generated status pages for your domains
+- **Privacy First**: No third-party trackers, no data sales. Revenue from subscriptions only.
+
+## Pricing
+
+- Free: 1 domain bundle, 1 email recipient, 30-day retention
+- Pro: $50/year — 100 monitors, 5 email recipients, 90-day retention + archives, multi-region, status pages
+- Lifetime Founder: $299 one-time — everything in Pro + early access and feedback channel
+
+## Frequently Asked Questions
+
+Q: What does DownBad monitor?
+A: DownBad monitors SSL/TLS certificates, DNS records, email security (SPF, DKIM, DMARC), domain blacklist status, HTTP endpoint uptime, and domain registration (WHOIS) expiration.
+
+Q: How much does DownBad cost?
+A: DownBad has a free tier with 1 domain bundle. Pro is $50/year for 100 monitors. A Lifetime Founder plan is $299 one-time.
+
+Q: Who is DownBad for?
+A: DownBad is built for indie hackers, solo founders, and small teams who need infrastructure monitoring without enterprise complexity or pricing.
+
+Q: Does DownBad track users?
+A: No. DownBad has no third-party trackers and does not sell data. Revenue comes from subscriptions only.
+
+## Social
+
+- Bluesky: https://bsky.app/profile/downbad.app
+- GitHub: https://github.com/downbadapp
+- Mastodon: https://mastodon.social/@downbad
