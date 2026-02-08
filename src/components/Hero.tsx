@@ -52,9 +52,7 @@ export function Hero() {
             <span className="text-accent-primary">the Greedflation</span>
           </h1>
           <p className="mx-auto max-w-lg text-lg leading-relaxed text-text-secondary">
-            SSL, DNS, email security, uptime — monitored 24/7 from multiple
-            regions. Alerts before problems become outages.
-            Built for indie hackers and small teams.
+            Enter your domain. We discover, validate, and monitor everything.
           </p>
         </div>
 
