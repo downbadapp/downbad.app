@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { ValueProp } from './components/ValueProp';
 import { Pricing } from './components/Pricing';
+import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
 import { MarkdownPage } from './components/MarkdownPage';
 import privacyMd from '@/privacy.md?raw';
@@ -14,6 +15,7 @@ function LandingPage() {
       <Hero />
       <ValueProp />
       <Pricing />
+      <FAQ />
     </main>
   );
 }

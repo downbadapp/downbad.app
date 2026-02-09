@@ -84,6 +84,9 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
   },
+  optimizeDeps: {
+    force: true, // re-optimize dependencies on every dev server start (no cache)
+  },
   build: {
     outDir: 'dist',
     emptyOutDir: true,

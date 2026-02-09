@@ -41,7 +41,7 @@ const features = [
     icon: mdiDnsOutline,
     title: 'DNS Health Checks',
     description:
-      'Verify DNS records, nameservers, and propagation. Know immediately if your configuration breaks orchanges.',
+      'Verify DNS records, nameservers, and propagation. Know immediately if your configuration breaks or changes.',
   },
   {
     icon: mdiEmailAlertOutline,
@@ -57,9 +57,9 @@ const features = [
   },
   {
     icon: mdiAccountGroupOutline,
-    title: 'Built for Indie Devs',
+    title: 'Built for small teams',
     description:
-      'No enterprise pricing, no DevOps degree required. Set up in minutes, not hours.',
+      'Indie devs, content creators, and freelancers will enjoy pricing that makes sense, no DevOps degree required. Set up in minutes, not hours.',
   },
   {
     icon: mdiEyeOffOutline,
@@ -98,11 +98,10 @@ export function ValueProp() {
         {/* Section header */}
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-text-primary sm:text-4xl">
-            One Domain. Every Monitor.
+            Simple to set up. Serious under the hood.
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-base leading-relaxed text-text-secondary">
-            Enter a domain and we auto-configure SSL, DNS, WHOIS, email security, blacklist,
-            and endpoint checks. No manual setup for each monitor type.
+            Multi-region probes, smart notifications, no false positives, advanced configurations. and more. For power users and casual users.
           </p>
         </div>
 

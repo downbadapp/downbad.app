@@ -248,7 +248,7 @@ If you are located in the European Economic Area, United Kingdom, or Switzerland
 - **Right to object** — Object to processing based on legitimate interests
 - **Rights related to automated decision-making** — We do not make solely automated decisions that significantly affect you
 
-To exercise these rights, contact us at privacy@downbad.app. We will respond within 30 days.
+To exercise these rights, contact us privacy@downbad.app. We will respond within 30 days.
 
 You also have the right to lodge a complaint with your local data protection authority.
 
@@ -261,7 +261,7 @@ If you are a California resident, you have the following rights under the Califo
 - **Right to opt-out of sale** — We do not sell your personal information, so this right does not apply
 - **Right to non-discrimination** — We will not discriminate against you for exercising your privacy rights
 
-To exercise these rights, contact us at privacy@downbad.app or use the data export and account deletion features in your dashboard.
+To exercise these rights, contact us privacy@downbad.app or use the data export and account deletion features in your dashboard.
 
 **Categories of personal information collected in the preceding 12 months:**
 
@@ -322,7 +322,7 @@ You can clear cookies and localStorage through your browser settings. Note that 
 
 The Service is not intended for individuals under the age of 18. We do not knowingly collect personal information from children under 18.
 
-If we become aware that we have collected personal information from a child under 18, we will take steps to delete that information promptly. If you believe we have inadvertently collected information from a child, please contact us at privacy@downbad.app.
+If we become aware that we have collected personal information from a child under 18, we will take steps to delete that information promptly. If you believe we have inadvertently collected information from a child, please contact us privacy@downbad.app.
 
 ---
 
@@ -345,10 +345,10 @@ We encourage you to review this Privacy Policy periodically.
 If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
 **Privacy Inquiries:**
-- Email: privacy@downbad.app
+- Email us privacy@downbad.app
 
 **General Legal Inquiries:**
-- Email: legal@downbad.app
+- Email us legal@downbad.app
 
 **Company:**
 Future Vision Concepts, LLC

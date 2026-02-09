@@ -299,7 +299,7 @@ We reserve the right to assume the exclusive defense of any matter subject to in
 
 ### 12.1 Termination by You
 
-You may cancel your subscription and delete your account at any time through your account settings or by contacting us at legal@downbad.app.
+You may cancel your subscription and delete your account at any time through your account settings or by contacting us: legal@downbad.app.
 
 ### 12.2 Termination by Us
 
@@ -324,7 +324,7 @@ Upon termination:
 
 ### 12.4 Account Recovery
 
-If your account was terminated in error or you wish to appeal a termination, you may contact us within 30 days of termination at legal@downbad.app.
+If your account was terminated in error or you wish to appeal a termination, you may contact us within 30 days of termination: legal@downbad.app.
 
 ---
 
@@ -334,7 +334,7 @@ If your account was terminated in error or you wish to appeal a termination, you
 
 ### 13.1 Informal Resolution
 
-Before initiating any formal dispute resolution, you agree to first contact us at legal@downbad.app and attempt to resolve the dispute informally for at least 30 days.
+Before initiating any formal dispute resolution, you agree to first contact us legal@downbad.app and attempt to resolve the dispute informally for at least 30 days.
 
 ### 13.2 Binding Arbitration
 
@@ -366,7 +366,7 @@ Notwithstanding the above, either party may:
 
 ### 13.6 Opt-Out Right
 
-**You may opt out of this arbitration agreement by sending written notice to legal@downbad.app within 30 days of first accepting these Terms.** Your notice must include your name, email address, and a clear statement that you wish to opt out of the arbitration agreement.
+**You may opt out of this arbitration agreement by sending written notice legal@downbad.app within 30 days of first accepting these Terms.** Your notice must include your name, email address, and a clear statement that you wish to opt out of the arbitration agreement.
 
 If you opt out, you and the Company will resolve disputes through the courts as described in Section 14.
 
@@ -436,7 +436,7 @@ These Terms do not create any third-party beneficiary rights in any person or en
 
 ### 16.8 Notices
 
-We may provide notices to you by email to the address associated with your account. You may provide notices to us at legal@downbad.app.
+We may provide notices to you by email to the address associated with your account. You may provide notices to us legal@downbad.app.
 
 ### 16.9 Headings
 
@@ -449,10 +449,10 @@ Section headings are for convenience only and do not affect the interpretation o
 If you have any questions about these Terms, please contact us:
 
 **Legal Inquiries:**
-- Email: legal@downbad.app
+- Email us legal@downbad.app
 
 **General Support:**
-- Website: downbad.app
+- Website: http://downbad.app
 
 **Company:**
 Future Vision Concepts, LLC

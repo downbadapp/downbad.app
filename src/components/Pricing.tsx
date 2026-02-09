@@ -31,7 +31,9 @@ export function Pricing() {
             Simple, Honest Pricing
           </h2>
           <p className="mx-auto mt-3 max-w-lg text-base leading-relaxed text-text-secondary">
-            No per-monitor fees. No surprise charges. No enterprise sales calls.
+            A single annual cost that makes sense.
+            <br />
+            <span className="text-sm text-text-tertiary">For less than a door dash delivery.</span>
           </p>
         </div>
 
@@ -50,7 +52,7 @@ export function Pricing() {
             <p className="mt-3 text-3xl font-bold text-text-primary">$0</p>
             <p className="mt-1 text-xs text-text-tertiary">forever</p>
             <p className="mt-4 text-sm leading-relaxed text-text-secondary">
-              One domain bundle to kick the tires. No credit card required.
+              One domain bundle free forever.
             </p>
           </div>
 
@@ -67,7 +69,7 @@ export function Pricing() {
             <p className="mt-3 text-3xl font-bold text-text-primary">$50</p>
             <p className="mt-1 text-xs text-text-tertiary">per year</p>
             <p className="mt-4 text-sm leading-relaxed text-text-secondary">
-              Multi-region monitoring, status pages, and event-based alerts.
+              Multi-region monitoring, status pages, event-based alerts, and advanced configurations.
             </p>
           </div>
 
